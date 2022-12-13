@@ -140,7 +140,6 @@ public class GunControl : MonoBehaviour, IEntityGun
 
     }
 
-
     void LookEvent(Transform newTarget)
     {
         LookGun.LookAtObj = newTarget;
@@ -198,8 +197,6 @@ public class GunControl : MonoBehaviour, IEntityGun
             time = true;
 
             yield return new WaitForSeconds(11f);
-            print("s");
-
             if (InFireTime)
             {
 
