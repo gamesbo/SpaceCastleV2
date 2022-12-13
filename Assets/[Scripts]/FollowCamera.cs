@@ -29,7 +29,7 @@ public class FollowCamera : MonoBehaviour
         if (Finish == false)
         {
 
-            //LookAtPlayer();
+            LookAtPlayer();
 
 
             if (smoothSpeed != 0.125f)
