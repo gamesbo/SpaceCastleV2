@@ -20,7 +20,6 @@ public class FollowCamera : MonoBehaviour
 
     private void Start()
     {
-        //StartCoroutine(Delay());
         Finish = false;
     }
 
@@ -30,7 +29,7 @@ public class FollowCamera : MonoBehaviour
         if (Finish == false)
         {
 
-            LookAtPlayer();
+            //LookAtPlayer();
 
 
             if (smoothSpeed != 0.125f)
@@ -47,7 +46,7 @@ public class FollowCamera : MonoBehaviour
                 {
                     Vector3 desiredPoisiton = FollowObj.transform.position + offset;
                     Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPoisiton, smoothSpeed);
-                    transform.position = new Vector3(smoothedPosition.x, smoothedPosition.y/*transform.position.y*/, smoothedPosition.z);
+                    transform.position = new Vector3(smoothedPosition.x, smoothedPosition.y, smoothedPosition.z);
                 }
 
             }
