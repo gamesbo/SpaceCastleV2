@@ -159,7 +159,7 @@ PlayerSettings:
     iPhone: com.rampagegames.spacecastle
   buildNumber:
     Standalone: 0
-    iPhone: 0
+    iPhone: 1
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
